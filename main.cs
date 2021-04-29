@@ -158,13 +158,14 @@ class MainClass {
 
       // at the start of the competition
 
-       int []  n = new int[5] { 1, 2, 3, 4, 5 }; /* n is an array of 10 integers */
+      //  int []  n = new int[5] { 1, 2, 3, 4, 5 }; /* n is an array of 10 integers */
+      //  string []  n = new int[5] { 1, 2, 3, 4, 5 }; /* n is an array of 10 integers */
          
-         /* output each array element's value */
-         foreach (int j in n ) {
-            int i = j-100;
-            Console.WriteLine("Element[{0}] = {1}", i, j);
-         }
+      //    /* output each array element's value */
+      //    foreach (int j in n ) {
+      //       int i = j-100;
+      //       Console.WriteLine("Element[{0}] = {1}", i, j);
+      //    }
 
         // for (j = 0; j < 10; j++ ) {
         //     Console.WriteLine("Element[{0}] = {1}", j, n[j]);
