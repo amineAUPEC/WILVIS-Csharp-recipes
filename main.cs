@@ -9,6 +9,7 @@ class MainClass {
 
         // Call the constructor that has one parameter.
         Console.WriteLine("Vegetable Class :");
+        var vegetable2 = new Vegetable("Parsley");
         var vegetable2_1 = new Vegetable("Parsley");
         Console.WriteLine(vegetable2_1.Materials);
         var vegetable2_2 = new Vegetable("Beets");
@@ -147,9 +148,22 @@ class MainClass {
 
 
       // at the start of the competition
-      for ()
-        
+      // for ()
+        var rand = new Random();
 
+        Console.WriteLine("2 random ingredients from vegetable2_x and integers between 0 and 3 :");
+        for (int ctr = 0; ctr <= 1; ctr++){
+              Console.WriteLine("Ingredients is : "+ "vegetable2_"+_rand.Next(4) );
+        }
+        
+        // Console.WriteLine("2 random ingredients from spice2_x and integers between 0 and 3 :");
+        // for (int ctr = 0; ctr <= 1; ctr++){
+        //       Console.WriteLine("Ingredients is : "+ rand.Next(4) );
+        // }
+            // Console.Write("{0,8:N0}", rand.Next(4));
+            // Console.Write("recipes2_"+ rand.Next(4));
+
+        Console.WriteLine();
 
 
 
