@@ -17,7 +17,7 @@ class MainClass {
 
         // Get the string representation of the person2 instance.
         Console.WriteLine(vegetable2);
-        spice2 = new Spice("Oregano");
+        var spice2 = new Spice("Oregano");
         Console.WriteLine(spice2.Materials);
         spice2 = new Spice("Pepper");
         Console.WriteLine(spice2.Materials);
