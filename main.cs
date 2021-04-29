@@ -112,6 +112,10 @@ class MainClass {
         binaryTree.Add(key1);
         binaryTree.Add(key2);
         binaryTree.Add(key3);
+        binaryTree.Add(key4);
+        binaryTree.Add(key5);
+        binaryTree.Add(key6);
+        binaryTree.Add(key7);
 
         Node node = binaryTree.Find(5);
         int depth = binaryTree.GetTreeDepth();
