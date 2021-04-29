@@ -8,6 +8,7 @@ class MainClass {
         Console.WriteLine(vegetable1.Materials);
 
         // Call the constructor that has one parameter.
+        Console.WriteLine("Vegetable Class :");
         var vegetable2 = new Vegetable("Parsley");
         Console.WriteLine(vegetable2.Materials);
         vegetable2 = new Vegetable("Beets");
@@ -18,6 +19,7 @@ class MainClass {
         // Get the string representation of the person2 instance.
         Console.WriteLine(vegetable2);
         var spice2 = new Spice("Oregano");
+        Console.WriteLine("Spice Class :");
         Console.WriteLine(spice2.Materials);
         spice2 = new Spice("Pepper");
         Console.WriteLine(spice2.Materials);
