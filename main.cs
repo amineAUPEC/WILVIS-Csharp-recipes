@@ -39,11 +39,11 @@ class MainClass {
 
 
 
-        recipes2 = new Recipes("Coriander","Biryani", "5" );
-        Console.WriteLine(recipes2.Materials);
-        Console.WriteLine(recipes2.Dishname);
-        Console.WriteLine(recipes2.Quantities);
-        int key2= Int32.Parse(recipes2.Quantities);  
+        var recipes2_2 = new Recipes("Coriander","Biryani", "5" );
+        Console.WriteLine(recipes2_2.Materials);
+        Console.WriteLine(recipes2_2.Dishname);
+        Console.WriteLine(recipes2_2.Quantities);
+        int key2= Int32.Parse(recipes2_2.Quantities);  
 
         
         // dish numb 2nd
@@ -58,13 +58,13 @@ class MainClass {
 
 
         
-        recipes3 = new Recipes("butter","palak paneer", "5" );
-        Console.WriteLine(recipes3.Materials);
-        Console.WriteLine(recipes3.Dishname);
-        Console.WriteLine(recipes3.Quantities);
+        var recipes3_2 = new Recipes("butter","palak paneer", "5" );
+        Console.WriteLine(recipes3_2.Materials);
+        Console.WriteLine(recipes3_2.Dishname);
+        Console.WriteLine(recipes3_2.Quantities);
 
 
-        int key4= Int32.Parse(recipes3.Quantities);
+        int key4= Int32.Parse(recipes3_2.Quantities);
         
         
         
@@ -80,29 +80,32 @@ class MainClass {
 
 
         
-        recipes4 = new Recipes("flour","paneer dosai", "5" );
-        Console.WriteLine(recipes4.Materials);
-        Console.WriteLine(recipes4.Dishname);
-        Console.WriteLine(recipes4.Quantities);
+        var recipes4_2 = new Recipes("flour","paneer dosai", "5" );
+        Console.WriteLine(recipes4_2.Materials);
+        Console.WriteLine(recipes4_2.Dishname);
+        Console.WriteLine(recipes4_2.Quantities);
 
 
-        int key6= Int32.Parse(recipes4.Quantities); 
+        int key6= Int32.Parse(recipes4_2.Quantities); 
         
-        recipes4 = new Recipes("onion","paneer dosai", "1" );
-        Console.WriteLine(recipes4.Materials);
-        Console.WriteLine(recipes4.Dishname);
-        Console.WriteLine(recipes4.Quantities);
+        var recipes4_3 = new Recipes("onion","paneer dosai", "1" );
+        Console.WriteLine(recipes4_3.Materials);
+        Console.WriteLine(recipes4_3.Dishname);
+        Console.WriteLine(recipes4_3.Quantities);
 
 
-        int key7= Int32.Parse(recipes4.Quantities);
+        int key7= Int32.Parse(recipes4_3.Quantities);
 
 
 
         // cast string to int csharp
 
         Console.WriteLine("Ingredients is : "+ recipes2.Materials+ " dishname : "+ recipes2.Dishname+ " quantities : "+ recipes2.Quantities );
-        Console.WriteLine("Ingredients is : "+ recipes3.Materials+ " dishname : "+ recipes3.Dishname+ " quantities : "+ recipes3.Quantities );
+        Console.WriteLine("Ingredients is : "+ recipes3.Materials+ " dishname : "+ recipes3.Dishname+ " quantities : "+ recipes3_2.Quantities );
+        Console.WriteLine("Ingredients is : "+ recipes3_2.Materials+ " dishname : "+ recipes3_2.Dishname+ " quantities : "+ recipes3_2.Quantities );
         Console.WriteLine("Ingredients is : "+ recipes4.Materials+ " dishname : "+ recipes4.Dishname+ " quantities : "+ recipes4.Quantities );
+        Console.WriteLine("Ingredients is : "+ recipes4_2.Materials+ " dishname : "+ recipes4_2.Dishname+ " quantities : "+ recipes4_2.Quantities );
+        Console.WriteLine("Ingredients is : "+ recipes4_3.Materials+ " dishname : "+ recipes4_3.Dishname+ " quantities : "+ recipes4_3.Quantities );
 
         // public Recipes(string materials, string dishname, int quantities)
 
