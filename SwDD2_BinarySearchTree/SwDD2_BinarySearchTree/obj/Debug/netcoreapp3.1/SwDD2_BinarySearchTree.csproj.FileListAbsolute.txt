@@ -1,0 +1,13 @@
+C:\Users\Jean-Camille\Documents\Cours Erasmus Esaip\Software design and development II prog 2\C-OBUDA\SwDD2_BinarySearchTree\bin\Debug\netcoreapp3.1\SwDD2_BinarySearchTree.exe
+C:\Users\Jean-Camille\Documents\Cours Erasmus Esaip\Software design and development II prog 2\C-OBUDA\SwDD2_BinarySearchTree\bin\Debug\netcoreapp3.1\SwDD2_BinarySearchTree.deps.json
+C:\Users\Jean-Camille\Documents\Cours Erasmus Esaip\Software design and development II prog 2\C-OBUDA\SwDD2_BinarySearchTree\bin\Debug\netcoreapp3.1\SwDD2_BinarySearchTree.runtimeconfig.json
+C:\Users\Jean-Camille\Documents\Cours Erasmus Esaip\Software design and development II prog 2\C-OBUDA\SwDD2_BinarySearchTree\bin\Debug\netcoreapp3.1\SwDD2_BinarySearchTree.runtimeconfig.dev.json
+C:\Users\Jean-Camille\Documents\Cours Erasmus Esaip\Software design and development II prog 2\C-OBUDA\SwDD2_BinarySearchTree\bin\Debug\netcoreapp3.1\SwDD2_BinarySearchTree.dll
+C:\Users\Jean-Camille\Documents\Cours Erasmus Esaip\Software design and development II prog 2\C-OBUDA\SwDD2_BinarySearchTree\bin\Debug\netcoreapp3.1\SwDD2_BinarySearchTree.pdb
+C:\Users\Jean-Camille\Documents\Cours Erasmus Esaip\Software design and development II prog 2\C-OBUDA\SwDD2_BinarySearchTree\obj\Debug\netcoreapp3.1\SwDD2_BinarySearchTree.csprojAssemblyReference.cache
+C:\Users\Jean-Camille\Documents\Cours Erasmus Esaip\Software design and development II prog 2\C-OBUDA\SwDD2_BinarySearchTree\obj\Debug\netcoreapp3.1\SwDD2_BinarySearchTree.AssemblyInfoInputs.cache
+C:\Users\Jean-Camille\Documents\Cours Erasmus Esaip\Software design and development II prog 2\C-OBUDA\SwDD2_BinarySearchTree\obj\Debug\netcoreapp3.1\SwDD2_BinarySearchTree.AssemblyInfo.cs
+C:\Users\Jean-Camille\Documents\Cours Erasmus Esaip\Software design and development II prog 2\C-OBUDA\SwDD2_BinarySearchTree\obj\Debug\netcoreapp3.1\SwDD2_BinarySearchTree.csproj.CoreCompileInputs.cache
+C:\Users\Jean-Camille\Documents\Cours Erasmus Esaip\Software design and development II prog 2\C-OBUDA\SwDD2_BinarySearchTree\obj\Debug\netcoreapp3.1\SwDD2_BinarySearchTree.dll
+C:\Users\Jean-Camille\Documents\Cours Erasmus Esaip\Software design and development II prog 2\C-OBUDA\SwDD2_BinarySearchTree\obj\Debug\netcoreapp3.1\SwDD2_BinarySearchTree.pdb
+C:\Users\Jean-Camille\Documents\Cours Erasmus Esaip\Software design and development II prog 2\C-OBUDA\SwDD2_BinarySearchTree\obj\Debug\netcoreapp3.1\SwDD2_BinarySearchTree.genruntimeconfig.cache
