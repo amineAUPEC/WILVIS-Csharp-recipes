@@ -32,6 +32,20 @@ class MainClass {
         Console.WriteLine(recipes2.Dishname);
         Console.WriteLine(recipes2.Quantities);
 
+
+        int key1= Int32.Parse(recipes2.Quantities);
+        recipes2 = new Recipes("Oregano","Biryani", "5" );
+        Console.WriteLine(recipes2.Materials);
+        Console.WriteLine(recipes2.Dishname);
+        Console.WriteLine(recipes2.Quantities);
+
+
+        int key2= Int32.Parse(recipes2.Quantities);
+
+
+
+        // cast string to int cshrap
+
         Console.WriteLine("Ingredients is : "+ recipes2.Materials+ " dishname : "+ recipes2.Dishname+ " quantities : "+ recipes2.Quantities );
 
         // public Recipes(string materials, string dishname, int quantities)
@@ -41,14 +55,9 @@ class MainClass {
 
         BinaryTree binaryTree = new BinaryTree();
         
-        binaryTree.Add(1);
-        binaryTree.Add(2);
-        binaryTree.Add(7);
-        binaryTree.Add(3);
-        binaryTree.Add(10);
-        binaryTree.Add(5);
-        binaryTree.Add(8);
-        
+        binaryTree.Add(key1);
+        binaryTree.Add(key2);
+
         Node node = binaryTree.Find(5);
         int depth = binaryTree.GetTreeDepth();
         
@@ -64,8 +73,8 @@ class MainClass {
         binaryTree.TraversePostOrder(binaryTree.Root);
         Console.WriteLine();
         
-        binaryTree.Remove(7);
-        binaryTree.Remove(8);
+        // binaryTree.Remove(7);
+        // binaryTree.Remove(8);
         
         Console.WriteLine("PreOrder Traversal After Removing Operation:");
         binaryTree.TraversePreOrder(binaryTree.Root);
