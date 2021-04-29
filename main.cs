@@ -27,6 +27,8 @@ class MainClass {
         Console.WriteLine(spice2.Materials);
 
         Console.WriteLine("Recipes Class :");
+        // dish numb 1rst
+        
         var recipes2 = new Recipes("Oregano","Biryani", "10" );
         Console.WriteLine(recipes2.Materials);
         Console.WriteLine(recipes2.Dishname);
@@ -34,13 +36,65 @@ class MainClass {
 
 
         int key1= Int32.Parse(recipes2.Quantities);
-        recipes2 = new Recipes("Oregano","Biryani", "5" );
+
+
+
+        recipes2 = new Recipes("Coriander","Biryani", "5" );
         Console.WriteLine(recipes2.Materials);
         Console.WriteLine(recipes2.Dishname);
         Console.WriteLine(recipes2.Quantities);
+        int key2= Int32.Parse(recipes2.Quantities);  
+
+        
+        // dish numb 2nd
+        
+        var recipes3 = new Recipes("paneer","palak paneer", "8" );
+        Console.WriteLine(recipes3.Materials);
+        Console.WriteLine(recipes3.Dishname);
+        Console.WriteLine(recipes3.Quantities);
 
 
-        int key2= Int32.Parse(recipes2.Quantities);
+        int key3= Int32.Parse(recipes3.Quantities);
+
+
+        
+        recipes3 = new Recipes("butter","palak paneer", "5" );
+        Console.WriteLine(recipes3.Materials);
+        Console.WriteLine(recipes3.Dishname);
+        Console.WriteLine(recipes3.Quantities);
+
+
+        int key4= Int32.Parse(recipes3.Quantities);
+        
+        
+        
+        
+        // dish numb 3th
+        var recipes4 = new Recipes("paneer","paneer dosai", "7" );
+        Console.WriteLine(recipes4.Materials);
+        Console.WriteLine(recipes4.Dishname);
+        Console.WriteLine(recipes4.Quantities);
+
+
+        int key5= Int32.Parse(recipes4.Quantities);
+
+
+        
+        recipes4 = new Recipes("flour","paneer dosai", "5" );
+        Console.WriteLine(recipes4.Materials);
+        Console.WriteLine(recipes4.Dishname);
+        Console.WriteLine(recipes4.Quantities);
+
+
+        int key6= Int32.Parse(recipes4.Quantities); 
+        
+        recipes4 = new Recipes("onion","paneer dosai", "1" );
+        Console.WriteLine(recipes4.Materials);
+        Console.WriteLine(recipes4.Dishname);
+        Console.WriteLine(recipes4.Quantities);
+
+
+        int key7= Int32.Parse(recipes4.Quantities);
 
 
 
@@ -57,6 +111,7 @@ class MainClass {
         
         binaryTree.Add(key1);
         binaryTree.Add(key2);
+        binaryTree.Add(key3);
 
         Node node = binaryTree.Find(5);
         int depth = binaryTree.GetTreeDepth();
@@ -73,8 +128,8 @@ class MainClass {
         binaryTree.TraversePostOrder(binaryTree.Root);
         Console.WriteLine();
         
-        // binaryTree.Remove(7);
-        // binaryTree.Remove(8);
+        binaryTree.Remove(7);
+        binaryTree.Remove(8);
         
         Console.WriteLine("PreOrder Traversal After Removing Operation:");
         binaryTree.TraversePreOrder(binaryTree.Root);
