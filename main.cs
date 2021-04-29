@@ -17,6 +17,10 @@ class MainClass {
         var vegetable2_3 = new Vegetable("Zucchini");
         Console.WriteLine(vegetable2_3.Materials);
 
+        var vegetableList = new List<ValueStorage> { vegetable2_1, vegetable2_2, vegetable2_3 };
+
+
+
         // Get the string representation of the person2 instance.
         Console.WriteLine("Spice Class :");
         Console.WriteLine(vegetable2);
@@ -26,6 +30,10 @@ class MainClass {
         Console.WriteLine(spice2_2.Materials);
         var spice2_3 = new Spice("Coriander");
         Console.WriteLine(spice2_3.Materials);
+
+
+        var spiceList = new List<ValueStorage> { spice2_1, spice2_2, spice2_3 };
+
 
         Console.WriteLine("Recipes Class :");
         // dish numb 1rst
@@ -148,20 +156,16 @@ class MainClass {
 
 
       // at the start of the competition
-      // for ()
-        var rand = new Random();
+
+
+        
 
         Console.WriteLine("2 random ingredients from vegetable2_x and integers between 0 and 3 :");
-        for (int ctr = 0; ctr <= 1; ctr++){
-              Console.WriteLine("Ingredients is : "+ "vegetable2_"+_rand.Next(4) );
+        for (int i = 0; i < vegetableList.Count; i++)
+        {
+            vegetableList[i].Value++;
         }
-        
-        // Console.WriteLine("2 random ingredients from spice2_x and integers between 0 and 3 :");
-        // for (int ctr = 0; ctr <= 1; ctr++){
-        //       Console.WriteLine("Ingredients is : "+ rand.Next(4) );
-        // }
-            // Console.Write("{0,8:N0}", rand.Next(4));
-            // Console.Write("recipes2_"+ rand.Next(4));
+
 
         Console.WriteLine();
 
