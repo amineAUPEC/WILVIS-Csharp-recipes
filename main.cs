@@ -27,10 +27,10 @@ class MainClass {
         Console.WriteLine(spice2.Materials);
 
         Console.WriteLine("Recipes Class :");
-        var recipes2 = new Recipes("Oregano","Biryani",10 );
+        var recipes2 = new Recipes("Oregano","Biryani", "10" );
         Console.WriteLine(recipes2.Materials);
         Console.WriteLine(recipes2.Dishname);
-        // Console.WriteLine(recipes2.Quantities);
+        Console.WriteLine(recipes2.Quantities);
         // public Recipes(string materials, string dishname, int quantities)
 
 

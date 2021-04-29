@@ -9,7 +9,7 @@ public class Recipes
     }
 
     // Constructor that takes one argument:
-    public Recipes(string materials, string dishname, int quantities)
+    public Recipes(string materials, string dishname, string quantities)
     {
         Materials = materials;
         Dishname = dishname;
@@ -26,6 +26,7 @@ public class Recipes
     {
         return Materials;
         return Dishname;
+        return Quantities;
     }
 }
 
