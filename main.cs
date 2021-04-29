@@ -1,4 +1,5 @@
 using System;
+using System.Collections.Generic;
 
 class MainClass {
     // static void Main()
@@ -17,7 +18,7 @@ class MainClass {
         var vegetable2_3 = new Vegetable("Zucchini");
         Console.WriteLine(vegetable2_3.Materials);
 
-        var vegetableList = new List<ValueStorage> { vegetable2_1, vegetable2_2, vegetable2_3 };
+        // var vegetableList = new List<Vegetable> { vegetable2_1, vegetable2_2, vegetable2_3 };
 
 
 
@@ -32,7 +33,7 @@ class MainClass {
         Console.WriteLine(spice2_3.Materials);
 
 
-        var spiceList = new List<ValueStorage> { spice2_1, spice2_2, spice2_3 };
+        // var spiceList = new List<Spice> { spice2_1, spice2_2, spice2_3 };
 
 
         Console.WriteLine("Recipes Class :");
@@ -157,15 +158,56 @@ class MainClass {
 
       // at the start of the competition
 
+       int []  n = new int[5] { 1, 2, 3, 4, 5 }; /* n is an array of 10 integers */
+         
+         /* output each array element's value */
+         foreach (int j in n ) {
+            int i = j-100;
+            Console.WriteLine("Element[{0}] = {1}", i, j);
+         }
 
+        // for (j = 0; j < 10; j++ ) {
+        //     Console.WriteLine("Element[{0}] = {1}", j, n[j]);
+        //  }
+
+
+      //  foreach (int j in n ) {
+      // {
+      //       int i = j-100;
+
+      //     Console.WriteLine("Element[{0}] = {1}", i, j);
+
+      //     // System.Console.Write("{0} ", i);
+      // }
+
+
+
+            // int[,] numbers2D = new int[3, 2] { { 9, 99 }, { 3, 33 }, { 5, 55 } };
+            // // Or use the short form:
+            // // int[,] numbers2D = { { 9, 99 }, { 3, 33 }, { 5, 55 } };
+
+            // foreach (int i in numbers2D)
+            // {
+            //     System.Console.Write("{0} ", i);
+// }
         
 
-        Console.WriteLine("2 random ingredients from vegetable2_x and integers between 0 and 3 :");
-        for (int i = 0; i < vegetableList.Count; i++)
-        {
-            vegetableList[i].Value++;
-        }
+        // Console.WriteLine("2 random ingredients from vegetable2_x and integers between 0 and 3 :");
+        // for (int i = 0; i < vegetableList.Count; i++)
+        // {
+        //     vegetableList[i].Value++;
+        // }
 
+
+      //  var _var1 = new ValueStorage() { Value = 0 };
+      //       var _var2 = new ValueStorage() { Value = 1 };
+      //       var _var3 = new ValueStorage() { Value = 2 };
+
+      //       var varList = new List<ValueStorage> { _var1, _var2, _var3 };
+      //       for (int i = 0; i < varList.Count; i++)
+      //       {
+      //           varList[i].Value++;
+      //       }
 
         Console.WriteLine();
 
