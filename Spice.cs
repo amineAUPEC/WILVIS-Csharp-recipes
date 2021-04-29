@@ -5,7 +5,7 @@ public class Spice
     // Constructor that takes no arguments:
     public Spice()
     {
-        Materials = "unknown";
+        // Materials = "unknown";
     }
 
     // Constructor that takes one argument:

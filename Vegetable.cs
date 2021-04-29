@@ -5,7 +5,7 @@ public class Vegetable
     // Constructor that takes no arguments:
     public Vegetable()
     {
-        Materials = "unknown";
+        // Materials = "unknown";
     }
 
     // Constructor that takes one argument:
