@@ -1,17 +1,6 @@
 using System;
 
-public class BinarySearcher
-{
-
-    class Node
-    {
-        public Node LeftNode { get; set; }
-        public Node RightNode { get; set; }
-        public int Data { get; set; }
-    }
-
-
-    class BinaryTree
+public class BinaryTree
     {
         public Node Root { get; set; }
     
@@ -152,13 +141,3 @@ public class BinarySearcher
             }
         }
     }
-
-
-
-
-
-
-
-
-
-}
