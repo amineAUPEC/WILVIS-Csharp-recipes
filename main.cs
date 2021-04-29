@@ -9,22 +9,22 @@ class MainClass {
 
         // Call the constructor that has one parameter.
         Console.WriteLine("Vegetable Class :");
-        var vegetable2 = new Vegetable("Parsley");
-        Console.WriteLine(vegetable2.Materials);
-        vegetable2 = new Vegetable("Beets");
-        Console.WriteLine(vegetable2.Materials);
-        vegetable2 = new Vegetable("Zucchini");
-        Console.WriteLine(vegetable2.Materials);
+        var vegetable2_1 = new Vegetable("Parsley");
+        Console.WriteLine(vegetable2_1.Materials);
+        var vegetable2_2 = new Vegetable("Beets");
+        Console.WriteLine(vegetable2_2.Materials);
+        var vegetable2_3 = new Vegetable("Zucchini");
+        Console.WriteLine(vegetable2_3.Materials);
 
         // Get the string representation of the person2 instance.
         Console.WriteLine("Spice Class :");
         Console.WriteLine(vegetable2);
-        var spice2 = new Spice("Oregano");
-        Console.WriteLine(spice2.Materials);
-        spice2 = new Spice("Pepper");
-        Console.WriteLine(spice2.Materials);
-        spice2 = new Spice("Coriander");
-        Console.WriteLine(spice2.Materials);
+        var spice2_1 = new Spice("Oregano");
+        Console.WriteLine(spice2_1.Materials);
+        var spice2_2 = new Spice("Pepper");
+        Console.WriteLine(spice2_2.Materials);
+        var spice2_3 = new Spice("Coriander");
+        Console.WriteLine(spice2_3.Materials);
 
         Console.WriteLine("Recipes Class :");
         // dish numb 1rst
@@ -101,7 +101,8 @@ class MainClass {
         // cast string to int csharp
 
         Console.WriteLine("Ingredients is : "+ recipes2.Materials+ " dishname : "+ recipes2.Dishname+ " quantities : "+ recipes2.Quantities );
-        Console.WriteLine("Ingredients is : "+ recipes3.Materials+ " dishname : "+ recipes3.Dishname+ " quantities : "+ recipes3_2.Quantities );
+        Console.WriteLine("Ingredients is : "+ recipes2_2.Materials+ " dishname : "+ recipes2_2.Dishname+ " quantities : "+ recipes2_2.Quantities );
+        Console.WriteLine("Ingredients is : "+ recipes3.Materials+ " dishname : "+ recipes3.Dishname+ " quantities : "+ recipes3.Quantities );
         Console.WriteLine("Ingredients is : "+ recipes3_2.Materials+ " dishname : "+ recipes3_2.Dishname+ " quantities : "+ recipes3_2.Quantities );
         Console.WriteLine("Ingredients is : "+ recipes4.Materials+ " dishname : "+ recipes4.Dishname+ " quantities : "+ recipes4.Quantities );
         Console.WriteLine("Ingredients is : "+ recipes4_2.Materials+ " dishname : "+ recipes4_2.Dishname+ " quantities : "+ recipes4_2.Quantities );
@@ -145,6 +146,9 @@ class MainClass {
         Console.WriteLine();
 
 
+      // at the start of the competition
+      for ()
+        
 
 
 
