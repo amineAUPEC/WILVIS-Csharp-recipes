@@ -98,9 +98,11 @@ class MainClass {
 
 
 
-        // cast string to int cshrap
+        // cast string to int csharp
 
         Console.WriteLine("Ingredients is : "+ recipes2.Materials+ " dishname : "+ recipes2.Dishname+ " quantities : "+ recipes2.Quantities );
+        Console.WriteLine("Ingredients is : "+ recipes3.Materials+ " dishname : "+ recipes3.Dishname+ " quantities : "+ recipes3.Quantities );
+        Console.WriteLine("Ingredients is : "+ recipes4.Materials+ " dishname : "+ recipes4.Dishname+ " quantities : "+ recipes4.Quantities );
 
         // public Recipes(string materials, string dishname, int quantities)
 
