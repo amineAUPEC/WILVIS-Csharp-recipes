@@ -509,7 +509,7 @@ class MainClass {
             Console.WriteLine(str);
         }
 
-        if (my_list.Contains("Shilpa") == true) 
+        if (my_list.Contains("e") == true) 
         {
             Console.WriteLine("Element Found...!!");
         }
