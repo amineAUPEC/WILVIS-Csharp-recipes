@@ -50,3 +50,23 @@ B :
 
 
 3+4+2+10 = 19 
+
+
+
+<!-- ADD START COMP -->
+
+Qty : 4 :
+
+Il utilise le meme ordre et la meme qty que le player A pour le player B
+
+
+4 ing au total :
+2 ing -> Vegetable
+2 ing -> Spice
+
+mais si  {if}  le 1 ing == second ing 
+
+alors tu [else}
+
+ing ="egg"
+ing ="Tikka"

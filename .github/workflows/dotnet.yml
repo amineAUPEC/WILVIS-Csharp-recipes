@@ -22,7 +22,7 @@ jobs:
     - name: Install package
       run: sudo apt-get install -y mono-complete
     - name: Build
-      run: sudo mcs -out:main.exe BinaryTree.cs Node.cs Recipes.cs Spice.cs Vegetable.cs main.cs main13-45.cs maino.cs player.cs
+      run: sudo mcs -out:main.exe BinaryTree.cs Node.cs Recipes.cs Spice.cs Vegetable.cs main.cs main13-45.cs maino.cs Player.cs
     - name: Test
       run: sudo mono main.exe
     # - name: Build

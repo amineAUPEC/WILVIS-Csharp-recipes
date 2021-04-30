@@ -510,7 +510,6 @@ class MainClass {
           // }
 
 
-
           }
           
         // Console.WriteLine("2 random ingredients from vegetable2_x and integers between 0 and 3 :");
@@ -519,7 +518,7 @@ class MainClass {
         //     cats[i].Value++;
         //     // Console.WriteLine()
         // }
-
+            player_A="true";
 
         }
         if (player_B=="false"){
@@ -662,10 +661,26 @@ class MainClass {
               }
 
 
-
+            player_B="true";
 
           }//player_B=="false
-          
+
+        
+        // function 
+        var player_A_play="false";
+        var player_B_play="false";
+
+        Console.WriteLine("player_Aval: "+player_A)
+        if (player_A_play=="false" && player_A=="true")
+
+            Console.WriteLine("Wilvis est genial");
+
+
+
+
+
+
+
         // Console.WriteLine("2 random ingredients from vegetable2_x and integers between 0 and 3 :");
         // for (int i = 0; i < cats.Count; i++)
         // {
