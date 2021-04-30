@@ -10,7 +10,8 @@ https://www.tutorialspoint.com/how-to-select-a-random-element-from-a-chash-list
 https://docs.microsoft.com/fr-fr/dotnet/csharp/programming-guide/classes-and-structs/object-and-collection-initializers
 https://www.codegrepper.com/code-examples/csharp/random+number+generator+in+c%23+within+a+range
 
-
+https://docs.microsoft.com/fr-fr/dotnet/csharp/programming-guide/classes-and-structs/local-functions
+https://docs.microsoft.com/fr-fr/dotnet/csharp/language-reference/keywords/if-else
 
 
 
