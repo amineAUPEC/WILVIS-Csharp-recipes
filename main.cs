@@ -1,6 +1,7 @@
 using System;
 using System.Collections.Generic;
 
+
 class MainClass {
     // static void Main()
     
@@ -488,15 +489,20 @@ class MainClass {
 
         Console.WriteLine("player_Aval : "+player_A);
         if (player_A_play=="false" && player_A=="true"){
-            Console.WriteLine("Wilvis est genial");
+            // Console.WriteLine("Wilvis est genial");
+            LinkedList<String> my_list = new LinkedList<String>();
+            my_list.AddLast("Zoya");
+            Console.WriteLine("Best students of XYZ university:");
+
+        foreach(string str in my_list)
+        {
+            Console.WriteLine(str);
+        }
 
         }
 
-
-
 //to do generated a different with while ing is index is different of second index
         Console.WriteLine();
-
 
         Console.WriteLine("Press any key to exit.");
         Console.ReadKey();
