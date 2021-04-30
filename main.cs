@@ -687,13 +687,17 @@ class MainClass {
         }
 
 
-
-        if (player_B_eliminated == false){
-            Console.WriteLine("Player Bwins")
+        Console.WriteLine("Players that wins : ");
+        if (player_A_eliminated == false){
+            Console.WriteLine("Player A wins");
         }  
         
         if (player_B_eliminated == false){
-            Console.WriteLine("Player Bwins")
+            Console.WriteLine("Player B wins");
+        }
+        else if (player_A_eliminated == true && player_B_eliminated == true ) {
+            Console.WriteLine("Players loose");
+            Console.WriteLine("Player A and B loose");
         }
 
 //END PLAYER B
