@@ -498,7 +498,7 @@ class MainClass {
         if (player_A_play=="false" && player_A=="true"){
             // Console.WriteLine("Wilvis est genial");
             LinkedList<String> my_list = new LinkedList<String>();
-            my_list.AddLast("Zoya");
+            my_list.AddLast(player_A_ing_1);
             Console.WriteLine("Best students of XYZ university:");
 
         foreach(string str in my_list)
