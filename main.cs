@@ -381,7 +381,7 @@ class MainClass {
                   // Console.WriteLine("player_B_index_2 :  "+player_B_index_2);
                   
                   if (player_B_index_1!=player_B_index_2){
-                    var player_B_ing_2=cats[player_B_index_2].ToString();
+                    player_B_ing_2=cats[player_B_index_2].ToString();
                     Console.WriteLine("DEBUG : Second ing : "+player_B_ing_2);
                     Console.WriteLine("DEBUG : player_A_qty_2 : "+player_A_qty_2);
 
