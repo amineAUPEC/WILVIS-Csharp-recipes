@@ -667,16 +667,6 @@ class MainClass {
 
         
         // function 
-        var player_A_play="false";
-        var player_B_play="false";
-
-        Console.WriteLine("player_Aval : "+player_A)
-        if (player_A_play=="false" && player_A=="true"){
-            Console.WriteLine("Wilvis est genial");
-
-
-
-        }
 
 
 
@@ -695,6 +685,16 @@ class MainClass {
 
         }
 
+        var player_A_play="false";
+        var player_B_play="false";
+
+        Console.WriteLine("player_Aval : "+player_A)
+        if (player_A_play=="false" && player_A=="true"){
+            Console.WriteLine("Wilvis est genial");
+
+
+
+        }
 
 
 
