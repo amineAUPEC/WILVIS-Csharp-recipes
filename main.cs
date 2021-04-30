@@ -509,7 +509,7 @@ class MainClass {
             Console.WriteLine(str);
         }
 
-        if (my_list.Contains("Beets") == true && mylist.Contains("Parsley")|| mylist.Contains("Tikka")) 
+        if (my_list.Contains("Beets") == true && mylist.Contains("Parsley") == true || mylist.Contains("Tikka") ==true) 
         {
             Console.WriteLine("Element Found...!!");
             Console.WriteLine("Dishes Tikka masala created...!!");
