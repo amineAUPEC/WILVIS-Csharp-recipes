@@ -346,10 +346,14 @@ class MainClass {
         // shuffle list var and iterate with for or randomly iterate on the list
         //  or reuse player A total
         int index_1 = random.Next(cats.Count);
+        int player_B_index_1 = random.Next(cats.Count);
         int index_2 = random.Next(cats.Count);
+        int player_B_index_2 = random.Next(cats.Count);
 
         int index_3 = random.Next(spicy.Count);
+        int player_B_index_3 = random.Next(spicy.Count);
         int index_4 = random.Next(spicy.Count);
+        int player_B_index_4 = random.Next(spicy.Count);
         var unit_measure="";
 
 
@@ -522,7 +526,7 @@ class MainClass {
           for (int i = 1; i < 5; i++)
           {
               if (i==1){
-                  var player_B_ing_1=cats[index_1].ToString();
+                  var player_B_ing_1=cats[player_B_index_1].ToString();
                   Console.WriteLine("First ing : "+player_B_ing_1);
                   Console.WriteLine("player_A_qty_1 : "+player_A_qty_1);
 
@@ -544,11 +548,11 @@ class MainClass {
 
               }
               else if (i==2){
-                  // Console.WriteLine("Index_1 :  "+index_1);
-                  // Console.WriteLine("Index_2 :  "+index_2);
+                  // Console.WriteLine("player_B_index_1 :  "+player_B_index_1);
+                  // Console.WriteLine("player_B_index_2 :  "+player_B_index_2);
                   
-                  if (index_1!=index_2){
-                    var player_B_ing_2=cats[index_2].ToString();
+                  if (player_B_index_1!=player_B_index_2){
+                    var player_B_ing_2=cats[player_B_index_2].ToString();
                     Console.WriteLine("DEBUG : Second ing : "+player_B_ing_2);
                     Console.WriteLine("DEBUG : player_A_qty_2 : "+player_A_qty_2);
 
@@ -592,7 +596,7 @@ class MainClass {
               }
 
               else if (i==3){
-                  var player_B_ing_3=spicy[index_3].ToString();
+                  var player_B_ing_3=spicy[player_B_index_3].ToString();
                   Console.WriteLine("Third ing : "+player_B_ing_3);
                   Console.WriteLine("player_A_qty_3 : "+player_A_qty_3);
 
@@ -612,8 +616,8 @@ class MainClass {
               
               else if (i==4){
         
-                  if (index_3!=index_4){
-                    var player_B_ing_4=spicy[index_4].ToString();
+                  if (player_B_index_3!=player_B_index_4){
+                    var player_B_ing_4=spicy[player_B_index_4].ToString();
                     Console.WriteLine("Fourth ing : "+player_B_ing_4);
                     Console.WriteLine("player_A_qty_4 : "+player_A_qty_4);
 
