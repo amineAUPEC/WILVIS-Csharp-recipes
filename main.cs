@@ -498,6 +498,8 @@ class MainClass {
         if (player_A_play=="false" && player_A=="true"){
             // Console.WriteLine("Wilvis est genial");
             LinkedList<String> my_list = new LinkedList<String>();
+            LinkedList<String> dishes_list = new LinkedList<String>();
+            var dishes_name="";
             my_list.AddLast(player_A_ing_1);
             my_list.AddLast(player_A_ing_2);
             my_list.AddLast(player_A_ing_3);
@@ -509,17 +511,23 @@ class MainClass {
             Console.WriteLine(str);
         }
 
-        if (my_list.Contains("Beets") == true && mylist.Contains("Parsley") == true || mylist.Contains("Tikka") ==true) 
+        if (my_list.Contains("Beets") == true && my_list.Contains("Parsley") == true || my_list.Contains("Tikka") == true) 
         {
             Console.WriteLine("Element Found...!!");
-            Console.WriteLine("Dishes Tikka masala created...!!");
+            dishes_name="Tikka masala";
+            Console.WriteLine("Dishes "+ dishes_name + " created...!!");
+            dishes_list.AddLast(dishes_name);
         }
         else 
         {
             Console.WriteLine("Element Not found...!!");
         }
+        Console.WriteLine("Dishes :");
 
-
+        foreach(string strdishes in dishes_list)
+        {
+            Console.WriteLine(strdishes);
+        }
 
         }
 
