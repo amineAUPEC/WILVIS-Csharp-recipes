@@ -509,14 +509,14 @@ class MainClass {
             Console.WriteLine(str);
         }
 
-        // if (my_list.Contains("Shilpa") == true) 
-        // {
-        //     Console.WriteLine("Element Found...!!");
-        // }
-        // else 
-        // {
-        //     Console.WriteLine("Element Not found...!!");
-        // }
+        if (my_list.Contains("Shilpa") == true) 
+        {
+            Console.WriteLine("Element Found...!!");
+        }
+        else 
+        {
+            Console.WriteLine("Element Not found...!!");
+        }
 
 
 
