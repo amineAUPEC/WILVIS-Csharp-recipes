@@ -499,6 +499,9 @@ class MainClass {
             // Console.WriteLine("Wilvis est genial");
             LinkedList<String> my_list = new LinkedList<String>();
             my_list.AddLast(player_A_ing_1);
+            my_list.AddLast(player_A_ing_2);
+            my_list.AddLast(player_A_ing_3);
+            my_list.AddLast(player_A_ing_4);
             Console.WriteLine("Best students of XYZ university:");
 
         foreach(string str in my_list)
