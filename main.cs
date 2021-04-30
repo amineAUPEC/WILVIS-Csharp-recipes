@@ -325,10 +325,10 @@ class MainClass {
         Console.WriteLine("player_A_total "+player_A_total);
 
 
-        Console.WriteLine("player_B_qty_1 "+player_A_qty_1);
-        Console.WriteLine("player_B_qty_2 "+player_A_qty_2);
-        Console.WriteLine("player_B_qty_3 "+player_A_qty_3);
-        Console.WriteLine("player_B_qty_4 "+player_A_qty_4);
+        Console.WriteLine("player_A_qty_1 "+player_A_qty_1);
+        Console.WriteLine("player_A_qty_2 "+player_A_qty_2);
+        Console.WriteLine("player_A_qty_3 "+player_A_qty_3);
+        Console.WriteLine("player_A_qty_4 "+player_A_qty_4);
         Console.WriteLine("player_B_total "+player_A_total);
 
         // List<Main> classy = new List<Main>
@@ -515,13 +515,166 @@ class MainClass {
         // }
 
 
+        }
+        if (player_B=="false"){
+
+          
+          for (int i = 1; i < 5; i++)
+          {
+              if (i==1){
+                  var player_B_ing_1=cats[index_1].ToString();
+                  Console.WriteLine("First ing : "+player_B_ing_1);
+                  Console.WriteLine("player_A_qty_1 : "+player_A_qty_1);
+
+
+                    if (player_B_ing_1=="Parsley" || player_B_ing_1=="Pepper" ){
+                        unit_measure="kg";
+                    }
+                    else if (player_B_ing_1=="Beets" || player_B_ing_1=="Oregano" ) {
+                        unit_measure="dkg";
+                    }
+                    else{
+                        unit_measure="€";
+                    }
+
+                    Console.WriteLine("Player B : First ing : "+player_B_ing_1+" with the amount of : "+player_A_qty_1+" in "+unit_measure);
 
 
 
 
+              }
+              else if (i==2){
+                  // Console.WriteLine("Index_1 :  "+index_1);
+                  // Console.WriteLine("Index_2 :  "+index_2);
+                  
+                  if (index_1!=index_2){
+                    var player_B_ing_2=cats[index_2].ToString();
+                    Console.WriteLine("DEBUG : Second ing : "+player_B_ing_2);
+                    Console.WriteLine("DEBUG : player_A_qty_2 : "+player_A_qty_2);
+
+                    if (player_B_ing_2=="Parsley" || player_B_ing_2=="Pepper" ){
+                        unit_measure="kg";
+                    }
+                    else if (player_B_ing_2=="Beets" || player_B_ing_2=="Oregano" ) {
+                        unit_measure="dkg";
+                    }
+                    else{
+                        unit_measure="€";
+                    }
+
+                    Console.WriteLine("Player B : Second ing if : "+player_B_ing_2+" with the amount of : "+player_A_qty_2+" in "+unit_measure);
+
+
+
+
+                  }
+                  else {
+                    var player_B_ing_2="Egg";
+                    Console.WriteLine("DEBUG : Second ing : "+player_B_ing_2);
+                    Console.WriteLine("DEBUG : player_A_qty_2 : "+player_A_qty_2);
+
+
+                    if (player_B_ing_2=="Parsley" || player_B_ing_2=="Pepper" ){
+                        unit_measure="kg";
+                    }
+                    else if (player_B_ing_2=="Beets" || player_B_ing_2=="Oregano" ) {
+                        unit_measure="dkg";
+                    }
+                    else{
+                        unit_measure="€";
+                    }
+
+                    Console.WriteLine("Player B : Second ing else : "+player_B_ing_2+" with the amount of : "+player_A_qty_2+" in "+unit_measure);
+
+
+                  }
+                  
+              }
+
+              else if (i==3){
+                  var player_B_ing_3=spicy[index_3].ToString();
+                  Console.WriteLine("Third ing : "+player_B_ing_3);
+                  Console.WriteLine("player_A_qty_3 : "+player_A_qty_3);
+
+
+                    if (player_B_ing_3=="Parsley" || player_B_ing_3=="Pepper" ){
+                        unit_measure="kg";
+                    }
+                    else if (player_B_ing_3=="Beets" || player_B_ing_3=="Oregano" ) {
+                        unit_measure="dkg";
+                    }
+                    else{
+                        unit_measure="€";
+                    }
+
+                    Console.WriteLine("Player B : Third ing if : "+player_B_ing_3+" with the amount of : "+player_A_qty_3+" in "+unit_measure);
+              }
+              
+              else if (i==4){
+        
+                  if (index_3!=index_4){
+                    var player_B_ing_4=spicy[index_4].ToString();
+                    Console.WriteLine("Fourth ing : "+player_B_ing_4);
+                    Console.WriteLine("player_A_qty_4 : "+player_A_qty_4);
+
+                    if (player_B_ing_4=="Parsley" || player_B_ing_4=="Pepper" ){
+                        unit_measure="kg";
+                    }
+                    else if (player_B_ing_4=="Beets" || player_B_ing_4=="Oregano" ) {
+                        unit_measure="dkg";
+                    }
+                    else{
+                        unit_measure="€";
+                    }
+                    // Console.WriteLine(unit_measure);
+
+                    // Console.WriteLine("Fourth ing if : "+player_B_ing_4+" player_A_qty_4 : "+player_A_qty_4);
+                    Console.WriteLine("Player B : Fourth ing if : "+player_B_ing_4+" with the amount of : "+player_A_qty_4+" in "+unit_measure);
+
+                  }
+                  else {
+                    var player_B_ing_4="Tikka";
+                    Console.WriteLine("Fourth ing : "+player_B_ing_4);
+                    Console.WriteLine("player_A_qty_4 : "+player_A_qty_4);
+
+                    
+                    if (player_B_ing_4=="Parsley" || player_B_ing_4=="Pepper" ){
+                        unit_measure="kg";
+                    }
+                    else if (player_B_ing_4=="Beets" || player_B_ing_4=="Oregano" ) {
+                        unit_measure="dkg";
+                    }
+                    else{
+                        unit_measure="€";
+                    }
+                    // Console.WriteLine(unit_measure);
+                    // Console.WriteLine("Fourth ing else : "+player_B_ing_4+" player_A_qty_4 : "+player_A_qty_4);
+                    Console.WriteLine("Player B : Fourth ing : "+player_B_ing_4+" with the amount of : "+player_A_qty_4+" in "+unit_measure);
+
+
+                  }
+              }
+
+
+
+
+          }//player_B=="false
+          
+        // Console.WriteLine("2 random ingredients from vegetable2_x and integers between 0 and 3 :");
+        // for (int i = 0; i < cats.Count; i++)
+        // {
+        //     cats[i].Value++;
+        //     // Console.WriteLine()
+        // }
 
 
         }
+
+
+
+
+
+
 
 //to do generated a different with while ing is index is different of second index
         Console.WriteLine();
