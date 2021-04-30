@@ -511,10 +511,31 @@ class MainClass {
             Console.WriteLine(str);
         }
 
-        if (my_list.Contains("Beets") == true && my_list.Contains("Parsley") == true || my_list.Contains("Tikka") == true) 
+        if (my_list.Contains("Beets") == true && my_list.Contains("Coriander") == true || my_list.Contains("Tikka") == true) 
         {
             Console.WriteLine("Element Found...!!");
             dishes_name="Tikka masala";
+            Console.WriteLine("Dishes "+ dishes_name + " created...!!");
+            dishes_list.AddLast(dishes_name);
+        } 
+        else if (my_list.Contains("Beets") == true && my_list.Contains("Parsley") == true || my_list.Contains("Tikka") == true) 
+        {
+            Console.WriteLine("Element Found...!!");
+            dishes_name="Chicken masala";
+            Console.WriteLine("Dishes "+ dishes_name + " created...!!");
+            dishes_list.AddLast(dishes_name);
+        }
+        else if (my_list.Contains("Beets") == true && my_list.Contains("Zucchini") == true || my_list.Contains("Tikka") == true) 
+        {
+            Console.WriteLine("Element Found...!!");
+            dishes_name="Parotta masala";
+            Console.WriteLine("Dishes "+ dishes_name + " created...!!");
+            dishes_list.AddLast(dishes_name);
+        }   
+        else if (my_list.Contains("Beets") == true && my_list.Contains("Oregano") == true || my_list.Contains("Tikka") == true) 
+        {
+            Console.WriteLine("Element Found...!!");
+            dishes_name="Oregano Parotta";
             Console.WriteLine("Dishes "+ dishes_name + " created...!!");
             dishes_list.AddLast(dishes_name);
         }
