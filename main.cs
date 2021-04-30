@@ -198,6 +198,11 @@ class MainClass {
         var player_A_ing_2="";
         var player_A_ing_3="";
         var player_A_ing_4="";
+        
+        var player_B_ing_1="";
+        var player_B_ing_2="";
+        var player_B_ing_3="";
+        var player_B_ing_4="";
 
 
 
@@ -350,7 +355,7 @@ class MainClass {
           for (int i = 1; i < 5; i++)
           {
               if (i==1){
-                  var player_B_ing_1=cats[player_B_index_1].ToString();
+                  player_B_ing_1=cats[player_B_index_1].ToString();
                   Console.WriteLine("First ing : "+player_B_ing_1);
                   Console.WriteLine("player_A_qty_1 : "+player_A_qty_1);
 
@@ -397,7 +402,7 @@ class MainClass {
 
                   }
                   else {
-                    var player_B_ing_2="Egg";
+                    player_B_ing_2="Egg";
                     Console.WriteLine("DEBUG : Second ing : "+player_B_ing_2);
                     Console.WriteLine("DEBUG : player_A_qty_2 : "+player_A_qty_2);
 
@@ -420,7 +425,7 @@ class MainClass {
               }
 
               else if (i==3){
-                  var player_B_ing_3=spicy[player_B_index_3].ToString();
+                  player_B_ing_3=spicy[player_B_index_3].ToString();
                   Console.WriteLine("Third ing : "+player_B_ing_3);
                   Console.WriteLine("player_A_qty_3 : "+player_A_qty_3);
 
@@ -441,7 +446,7 @@ class MainClass {
               else if (i==4){
         
                   if (player_B_index_3!=player_B_index_4){
-                    var player_B_ing_4=spicy[player_B_index_4].ToString();
+                    player_B_ing_4=spicy[player_B_index_4].ToString();
                     Console.WriteLine("Fourth ing : "+player_B_ing_4);
                     Console.WriteLine("player_A_qty_4 : "+player_A_qty_4);
 
@@ -461,7 +466,7 @@ class MainClass {
 
                   }
                   else {
-                    var player_B_ing_4="Tikka";
+                    player_B_ing_4="Tikka";
                     Console.WriteLine("Fourth ing : "+player_B_ing_4);
                     Console.WriteLine("player_A_qty_4 : "+player_A_qty_4);
 
@@ -606,7 +611,7 @@ class MainClass {
             my_list_player_B.AddLast(player_B_ing_4);
             Console.WriteLine("Best students of XYZ university:");
 
-            foreach(string str in my_list_player_B_player_B)
+            foreach(string str in my_list_player_B)
             {
                 Console.WriteLine(str);
             }
@@ -616,7 +621,7 @@ class MainClass {
                 Console.WriteLine("Element Found...!!");
                 dishes_name="Tikka masala";
                 Console.WriteLine("Dishes "+ dishes_name + " created...!!");
-                dishes_list.AddLast(dishes_name);
+                dishes_list_player_B.AddLast(dishes_name);
                 atleast_one_dish_player_B="true";
             } 
             else if (my_list_player_B.Contains("Beets") == true && my_list_player_B.Contains("Parsley") == true || my_list_player_B.Contains("Tikka") == true) 
@@ -624,7 +629,7 @@ class MainClass {
                 Console.WriteLine("Element Found...!!");
                 dishes_name="Chicken masala";
                 Console.WriteLine("Dishes "+ dishes_name + " created...!!");
-                dishes_list.AddLast(dishes_name);
+                dishes_list_player_B.AddLast(dishes_name);
                 atleast_one_dish_player_B="true";
             }
             else if (my_list_player_B.Contains("Beets") == true && my_list_player_B.Contains("Zucchini") == true || my_list_player_B.Contains("Tikka") == true) 
@@ -632,7 +637,7 @@ class MainClass {
                 Console.WriteLine("Element Found...!!");
                 dishes_name="Parotta masala";
                 Console.WriteLine("Dishes "+ dishes_name + " created...!!");
-                dishes_list.AddLast(dishes_name);
+                dishes_list_player_B.AddLast(dishes_name);
                 atleast_one_dish_player_B="true";
             }   
             else if (my_list_player_B.Contains("Beets") == true && my_list_player_B.Contains("Oregano") == true || my_list_player_B.Contains("Tikka") == true) 
@@ -640,7 +645,7 @@ class MainClass {
                 Console.WriteLine("Element Found...!!");
                 dishes_name="Oregano Parotta";
                 Console.WriteLine("Dishes "+ dishes_name + " created...!!");
-                dishes_list.AddLast(dishes_name);
+                dishes_list_player_B.AddLast(dishes_name);
                 atleast_one_dish_player_B="true";
             } 
             else if (my_list_player_B.Contains("Beets") == true && my_list_player_B.Contains("Oregano") == true) 
@@ -648,7 +653,7 @@ class MainClass {
                 Console.WriteLine("Element Found...!!");
                 dishes_name="Oregano pizza ";
                 Console.WriteLine("Dishes "+ dishes_name + " created...!!");
-                dishes_list.AddLast(dishes_name);
+                dishes_list_player_B.AddLast(dishes_name);
                 atleast_one_dish_player_B="true";
             }   
             else if (my_list_player_B.Contains("Beets") == true && my_list_player_B.Contains("Zucchini") == true) 
@@ -656,7 +661,7 @@ class MainClass {
                 Console.WriteLine("Element Found...!!");
                 dishes_name="Zucchini pizza ";
                 Console.WriteLine("Dishes "+ dishes_name + " created...!!");
-                dishes_list.AddLast(dishes_name);
+                dishes_list_player_B.AddLast(dishes_name);
                 atleast_one_dish_player_B="true";
             }
             else 
