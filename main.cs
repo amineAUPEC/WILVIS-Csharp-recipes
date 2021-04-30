@@ -194,6 +194,13 @@ class MainClass {
         int player_B_index_4 = random.Next(spicy.Count);
         var unit_measure="";
 
+        var player_A_ing_1;
+        var player_A_ing_2;
+        var player_A_ing_3;
+        var player_A_ing_4;
+
+
+
 
         if (player_A=="false"){
 
@@ -201,7 +208,7 @@ class MainClass {
           for (int i = 1; i < 5; i++)
           {
               if (i==1){
-                  var player_A_ing_1=cats[index_1].ToString();
+                  player_A_ing_1=cats[index_1].ToString();
                   Console.WriteLine("DEBUG : First ing : "+player_A_ing_1);
                   Console.WriteLine("DEBUG : player_A_qty_1 : "+player_A_qty_1);
 
@@ -223,7 +230,7 @@ class MainClass {
                   // Console.WriteLine("Index_2 :  "+index_2);
                   
                   if (index_1!=index_2){
-                    var player_A_ing_2=cats[index_2].ToString();
+                    player_A_ing_2=cats[index_2].ToString();
                     Console.WriteLine("DEBUG : Second ing : "+player_A_ing_2);
                     Console.WriteLine("DEBUG : player_A_qty_2 : "+player_A_qty_2);
 
@@ -244,7 +251,7 @@ class MainClass {
 
                   }
                   else {
-                    var player_A_ing_2="Egg";
+                    player_A_ing_2="Egg";
                     Console.WriteLine("DEBUG : Second ing : "+player_A_ing_2);
                     Console.WriteLine("DEBUG : player_A_qty_2 : "+player_A_qty_2);
 
@@ -267,7 +274,7 @@ class MainClass {
               }
 
               else if (i==3){
-                  var player_A_ing_3=spicy[index_3].ToString();
+                  player_A_ing_3=spicy[index_3].ToString();
                   Console.WriteLine("Third ing : "+player_A_ing_3);
                   Console.WriteLine("player_A_qty_3 : "+player_A_qty_3);
 
@@ -288,7 +295,7 @@ class MainClass {
               else if (i==4){
         
                   if (index_3!=index_4){
-                    var player_A_ing_4=spicy[index_4].ToString();
+                    player_A_ing_4=spicy[index_4].ToString();
                     Console.WriteLine("Fourth ing : "+player_A_ing_4);
                     Console.WriteLine("player_A_qty_4 : "+player_A_qty_4);
 
@@ -308,7 +315,7 @@ class MainClass {
 
                   }
                   else {
-                    var player_A_ing_4="Tikka";
+                    player_A_ing_4="Tikka";
                     Console.WriteLine("Fourth ing : "+player_A_ing_4);
                     Console.WriteLine("player_A_qty_4 : "+player_A_qty_4);
 
@@ -498,6 +505,17 @@ class MainClass {
         {
             Console.WriteLine(str);
         }
+
+        // if (my_list.Contains("Shilpa") == true) 
+        // {
+        //     Console.WriteLine("Element Found...!!");
+        // }
+        // else 
+        // {
+        //     Console.WriteLine("Element Not found...!!");
+        // }
+
+
 
         }
 
