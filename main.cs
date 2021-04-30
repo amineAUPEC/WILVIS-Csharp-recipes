@@ -503,6 +503,8 @@ class MainClass {
         var player_B_eliminated=false; 
         var atleast_one_dish="false";
         var atleast_one_dish_player_B="false";
+        LinkedList<String> win_list = new LinkedList<String>();
+
 //BEGIN PLAYER A
         Console.WriteLine("player_Aval : "+player_A);
         if (player_A_play=="false" && player_A=="true"){
@@ -588,20 +590,24 @@ class MainClass {
                 tantrum = false; 
                 Console.WriteLine("Player A is nominated from the tournament"); 
                 player_A_eliminated = false; 
+                win_list.AddLast("Player A win");
+
             }
             else{
                 Console.WriteLine("Player A is eliminated from the tournament"); 
                 tantrum = true; 
                 player_A_eliminated = true; 
             }
-        if (player_A_eliminated == false){
-            Console.WriteLine("Player A wins");
-        }  
+
+            if (player_A_eliminated == false){
+                Console.WriteLine("Player A wins");
+            }  
         
 
         }
 //END PLAYER A
 //BEGIN PLAYER B
+
         Console.WriteLine("player_Bval : "+player_B);
         if (player_B_play=="false" && player_B=="true"){
             // Console.WriteLine("Wilvis est genial");
@@ -685,15 +691,17 @@ class MainClass {
                 tantrum = false; 
                 Console.WriteLine("Player B is nominated from the tournament"); 
                 player_B_eliminated = false; 
+                win_list.AddLast("Player B win");
             }
             else{
                 Console.WriteLine("Player B is eliminated from the tournament"); 
                 tantrum = true; 
                 player_B_eliminated = true; 
             }
-        if (player_B_eliminated == false){
-            Console.WriteLine("Player B wins");
-        }
+
+            if (player_B_eliminated == false){
+                Console.WriteLine("Player B wins");
+            }
 
         }
 
