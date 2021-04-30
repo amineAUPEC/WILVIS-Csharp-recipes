@@ -194,10 +194,10 @@ class MainClass {
         int player_B_index_4 = random.Next(spicy.Count);
         var unit_measure="";
 
-        var player_A_ing_1;
-        var player_A_ing_2;
-        var player_A_ing_3;
-        var player_A_ing_4;
+        var player_A_ing_1="";
+        var player_A_ing_2="";
+        var player_A_ing_3="";
+        var player_A_ing_4="";
 
 
 
