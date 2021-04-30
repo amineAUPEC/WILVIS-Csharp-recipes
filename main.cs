@@ -504,7 +504,7 @@ class MainClass {
             // Console.WriteLine("Wilvis est genial");
             LinkedList<String> my_list = new LinkedList<String>();
             LinkedList<String> dishes_list = new LinkedList<String>();
-            var atleast_one_dish="false";
+            atleast_one_dish="false";
             var dishes_name="";
             my_list.AddLast(player_A_ing_1);
             my_list.AddLast(player_A_ing_2);
@@ -685,6 +685,17 @@ class MainClass {
 
 
         }
+
+
+
+        if (player_B_eliminated == false){
+            Console.WriteLine("Player Bwins")
+        }  
+        
+        if (player_B_eliminated == false){
+            Console.WriteLine("Player Bwins")
+        }
+
 //END PLAYER B
 //to do generated a different with while ing is index is different of second index
         Console.WriteLine();
