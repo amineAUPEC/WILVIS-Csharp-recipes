@@ -582,6 +582,7 @@ class MainClass {
                 Console.WriteLine(strdishes);
             }
 
+            Console.WriteLine("DEBUG4: A "+atleast_one_dish);
 
             if (tantrum == false && player_A_eliminated == false && atleast_one_dish=="true" ){
                 tantrum = false; 
@@ -676,7 +677,7 @@ class MainClass {
                 Console.WriteLine(strdishes);
             }
 
-
+            Console.WriteLine("DEBUG4: "+atleast_one_dish_player_B);
             if (tantrum == false && player_B_eliminated == false && atleast_one_dish_player_B=="true" ){
                 tantrum = false; 
                 Console.WriteLine("Player B is nominated from the tournament"); 
