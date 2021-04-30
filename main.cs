@@ -345,8 +345,10 @@ class MainClass {
         // list var
         // shuffle list var and iterate with for or randomly iterate on the list
         //  or reuse player A total
+        
+        //for ingredients random index
         int index_1 = random.Next(cats.Count);
-        int player_B_index_1 = random.Next(cats.Count);
+        int player_B_index_1 = random.Next(spicy.Count);
         int index_2 = random.Next(cats.Count);
         int player_B_index_2 = random.Next(cats.Count);
 
@@ -364,8 +366,8 @@ class MainClass {
           {
               if (i==1){
                   var player_A_ing_1=cats[index_1].ToString();
-                  Console.WriteLine("First ing : "+player_A_ing_1);
-                  Console.WriteLine("player_A_qty_1 : "+player_A_qty_1);
+                  Console.WriteLine("DEBUG : First ing : "+player_A_ing_1);
+                  Console.WriteLine("DEBUG : player_A_qty_1 : "+player_A_qty_1);
 
 
                     if (player_A_ing_1=="Parsley" || player_A_ing_1=="Pepper" ){
