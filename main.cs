@@ -587,9 +587,6 @@ class MainClass {
             }
 
 
-
-
-
         }
 
 //to do generated a different with while ing is index is different of second index
