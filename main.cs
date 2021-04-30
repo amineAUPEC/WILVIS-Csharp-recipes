@@ -495,7 +495,10 @@ class MainClass {
         var player_B_play="false";
         var tantrum= false; 
         var player_A_eliminated=false; 
-
+        var player_B_eliminated=false; 
+        var atleast_one_dish="false";
+        var atleast_one_dish_player_B="false";
+//BEGIN PLAYER A
         Console.WriteLine("player_Aval : "+player_A);
         if (player_A_play=="false" && player_A=="true"){
             // Console.WriteLine("Wilvis est genial");
@@ -576,19 +579,113 @@ class MainClass {
 
 
             if (tantrum == false && player_A_eliminated == false && atleast_one_dish=="true" ){
-                tantrum =true; 
-                Console.WriteLine("Player is nominated from the tournament"); 
-                player_A_eliminated = true; 
+                tantrum = false; 
+                Console.WriteLine("Player A is nominated from the tournament"); 
+                player_A_eliminated = false; 
             }
             else{
-                Console.WriteLine("Player is eliminated from the tournament"); 
-                tantrum = false; 
-                player_A_eliminated = false; 
+                Console.WriteLine("Player A is eliminated from the tournament"); 
+                tantrum = true; 
+                player_A_eliminated = true; 
             }
 
 
         }
+//END PLAYER A
+//BEGIN PLAYER B
+        Console.WriteLine("player_Bval : "+player_B);
+        if (player_B_play=="false" && player_B=="true"){
+            // Console.WriteLine("Wilvis est genial");
+            LinkedList<String> my_list_player_B = new LinkedList<String>();
+            LinkedList<String> dishes_list_player_B = new LinkedList<String>();
 
+            var dishes_name="";
+            my_list_player_B.AddLast(player_B_ing_1);
+            my_list_player_B.AddLast(player_B_ing_2);
+            my_list_player_B.AddLast(player_B_ing_3);
+            my_list_player_B.AddLast(player_B_ing_4);
+            Console.WriteLine("Best students of XYZ university:");
+
+            foreach(string str in my_list_player_B_player_B)
+            {
+                Console.WriteLine(str);
+            }
+
+            if (my_list_player_B.Contains("Beets") == true && my_list_player_B.Contains("Coriander") == true || my_list_player_B.Contains("Tikka") == true) 
+            {
+                Console.WriteLine("Element Found...!!");
+                dishes_name="Tikka masala";
+                Console.WriteLine("Dishes "+ dishes_name + " created...!!");
+                dishes_list.AddLast(dishes_name);
+                atleast_one_dish_player_B="true";
+            } 
+            else if (my_list_player_B.Contains("Beets") == true && my_list_player_B.Contains("Parsley") == true || my_list_player_B.Contains("Tikka") == true) 
+            {
+                Console.WriteLine("Element Found...!!");
+                dishes_name="Chicken masala";
+                Console.WriteLine("Dishes "+ dishes_name + " created...!!");
+                dishes_list.AddLast(dishes_name);
+                atleast_one_dish_player_B="true";
+            }
+            else if (my_list_player_B.Contains("Beets") == true && my_list_player_B.Contains("Zucchini") == true || my_list_player_B.Contains("Tikka") == true) 
+            {
+                Console.WriteLine("Element Found...!!");
+                dishes_name="Parotta masala";
+                Console.WriteLine("Dishes "+ dishes_name + " created...!!");
+                dishes_list.AddLast(dishes_name);
+                atleast_one_dish_player_B="true";
+            }   
+            else if (my_list_player_B.Contains("Beets") == true && my_list_player_B.Contains("Oregano") == true || my_list_player_B.Contains("Tikka") == true) 
+            {
+                Console.WriteLine("Element Found...!!");
+                dishes_name="Oregano Parotta";
+                Console.WriteLine("Dishes "+ dishes_name + " created...!!");
+                dishes_list.AddLast(dishes_name);
+                atleast_one_dish_player_B="true";
+            } 
+            else if (my_list_player_B.Contains("Beets") == true && my_list_player_B.Contains("Oregano") == true) 
+            {
+                Console.WriteLine("Element Found...!!");
+                dishes_name="Oregano pizza ";
+                Console.WriteLine("Dishes "+ dishes_name + " created...!!");
+                dishes_list.AddLast(dishes_name);
+                atleast_one_dish_player_B="true";
+            }   
+            else if (my_list_player_B.Contains("Beets") == true && my_list_player_B.Contains("Zucchini") == true) 
+            {
+                Console.WriteLine("Element Found...!!");
+                dishes_name="Zucchini pizza ";
+                Console.WriteLine("Dishes "+ dishes_name + " created...!!");
+                dishes_list.AddLast(dishes_name);
+                atleast_one_dish_player_B="true";
+            }
+            else 
+            {
+                Console.WriteLine("Element Not found...!!");
+                atleast_one_dish_player_B="false";
+            }
+            Console.WriteLine("Dishes :");
+
+            foreach(string strdishes in dishes_list_player_B)
+            {
+                Console.WriteLine(strdishes);
+            }
+
+
+            if (tantrum == false && player_B_eliminated == false && atleast_one_dish_player_B=="true" ){
+                tantrum = false; 
+                Console.WriteLine("Player B is nominated from the tournament"); 
+                player_B_eliminated = false; 
+            }
+            else{
+                Console.WriteLine("Player B is eliminated from the tournament"); 
+                tantrum = true; 
+                player_B_eliminated = true; 
+            }
+
+
+        }
+//END PLAYER B
 //to do generated a different with while ing is index is different of second index
         Console.WriteLine();
 
