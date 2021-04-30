@@ -494,7 +494,7 @@ class MainClass {
         var player_A_play="false";
         var player_B_play="false";
         var tantrum= false; 
-        var player_eliminated=false; 
+        var player_A_eliminated=false; 
 
         Console.WriteLine("player_Aval : "+player_A);
         if (player_A_play=="false" && player_A=="true"){
@@ -575,15 +575,15 @@ class MainClass {
             }
 
 
-            if (tantrum == false && player_eliminated == false && atleast_one_dish=="true" ){
+            if (tantrum == false && player_A_eliminated == false && atleast_one_dish=="true" ){
                 tantrum =true; 
                 Console.WriteLine("Player is nominated from the tournament"); 
-                player_eliminated = true; 
+                player_A_eliminated = true; 
             }
             else{
                 Console.WriteLine("Player is eliminated from the tournament"); 
                 tantrum = false; 
-                player_eliminated = false; 
+                player_A_eliminated = false; 
             }
 
 
