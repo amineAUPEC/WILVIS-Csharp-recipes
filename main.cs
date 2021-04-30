@@ -538,6 +538,20 @@ class MainClass {
             dishes_name="Oregano Parotta";
             Console.WriteLine("Dishes "+ dishes_name + " created...!!");
             dishes_list.AddLast(dishes_name);
+        } 
+        else if (my_list.Contains("Beets") == true && my_list.Contains("Oregano") == true) 
+        {
+            Console.WriteLine("Element Found...!!");
+            dishes_name="Oregano pizza ";
+            Console.WriteLine("Dishes "+ dishes_name + " created...!!");
+            dishes_list.AddLast(dishes_name);
+        }   
+        else if (my_list.Contains("Beets") == true && my_list.Contains("Zucchini") == true) 
+        {
+            Console.WriteLine("Element Found...!!");
+            dishes_name="Zucchini pizza ";
+            Console.WriteLine("Dishes "+ dishes_name + " created...!!");
+            dishes_list.AddLast(dishes_name);
         }
         else 
         {
