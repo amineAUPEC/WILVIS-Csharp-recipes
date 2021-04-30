@@ -3,6 +3,8 @@ using System;
 public class Vegetable
 {
     // Constructor that takes no arguments:
+    public string Materials { get; set; }
+
     public Vegetable()
     {
         // Materials = "unknown";
@@ -15,7 +17,7 @@ public class Vegetable
     }
 
     // Auto-implemented readonly property:
-    public string Materials { get; }
+    // public string Materials { get; }
 
     // Method that overrides the base class (System.Object) implementation.
     public override string ToString()

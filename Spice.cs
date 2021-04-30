@@ -2,6 +2,7 @@ using System;
 
 public class Spice
 {
+  public string Materials { get; set; }
     // Constructor that takes no arguments:
     public Spice()
     {
@@ -15,7 +16,7 @@ public class Spice
     }
 
     // Auto-implemented readonly property:
-    public string Materials { get; }
+    // public string Materials { get; }
 
     // Method that overrides the base class (System.Object) implementation.
     public override string ToString()
